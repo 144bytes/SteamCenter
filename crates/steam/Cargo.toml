@@ -1,0 +1,12 @@
+[package]
+name = "steamcenter-steam"
+description = "SteamCenter: Steam Web API for one's own account (access token of a signed-in web session)"
+edition.workspace = true
+version.workspace = true
+license.workspace = true
+
+[dependencies]
+base64.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+ureq.workspace = true
