@@ -1,0 +1,10 @@
+[package]
+name = "steamcenter-update"
+description = "SteamCenter updates: latest release on GitHub, downloads, replacing the running exe"
+edition.workspace = true
+version.workspace = true
+license.workspace = true
+
+[dependencies]
+serde_json.workspace = true
+ureq.workspace = true
